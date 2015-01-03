@@ -36,6 +36,8 @@
 		BE1917351A57808A000349CF /* iOS8SwiftCustomFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS8SwiftCustomFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE19173A1A57808A000349CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE19173B1A57808A000349CF /* iOS8SwiftCustomFontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS8SwiftCustomFontTests.swift; sourceTree = "<group>"; };
+		BE1917451A57819A000349CF /* orangejuice.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = orangejuice.ttf; sourceTree = "<group>"; };
+		BE1917461A5781D8000349CF /* BACKS___.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BACKS___.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,8 @@
 		BE1917221A57808A000349CF /* iOS8SwiftCustomFont */ = {
 			isa = PBXGroup;
 			children = (
+				BE1917451A57819A000349CF /* orangejuice.ttf */,
+				BE1917461A5781D8000349CF /* BACKS___.otf */,
 				BE1917251A57808A000349CF /* AppDelegate.swift */,
 				BE1917271A57808A000349CF /* ViewController.swift */,
 				BE1917291A57808A000349CF /* Main.storyboard */,
