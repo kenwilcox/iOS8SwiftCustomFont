@@ -13,6 +13,8 @@
 		BE19172D1A57808A000349CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE19172C1A57808A000349CF /* Images.xcassets */; };
 		BE1917301A57808A000349CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE19172E1A57808A000349CF /* LaunchScreen.xib */; };
 		BE19173C1A57808A000349CF /* iOS8SwiftCustomFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE19173B1A57808A000349CF /* iOS8SwiftCustomFontTests.swift */; };
+		BE1917471A57835C000349CF /* orangejuice.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE1917451A57819A000349CF /* orangejuice.ttf */; };
+		BE1917481A57835F000349CF /* BACKS___.otf in Resources */ = {isa = PBXBuildFile; fileRef = BE1917461A5781D8000349CF /* BACKS___.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -196,9 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1917481A57835F000349CF /* BACKS___.otf in Resources */,
 				BE19172B1A57808A000349CF /* Main.storyboard in Resources */,
 				BE1917301A57808A000349CF /* LaunchScreen.xib in Resources */,
 				BE19172D1A57808A000349CF /* Images.xcassets in Resources */,
+				BE1917471A57835C000349CF /* orangejuice.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

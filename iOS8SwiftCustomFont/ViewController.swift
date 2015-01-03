@@ -10,9 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  @IBOutlet weak var topTextView: UITextView!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    let fontFamilyNames = UIFont.familyNames()
+    for familyName in fontFamilyNames {
+      println("Font Family Name = [\(familyName)]")
+      let names = UIFont.fontNamesForFamilyName(familyName as String)
+      println("Font Names = [\(names)")
+    }
   }
 
   override func didReceiveMemoryWarning() {
