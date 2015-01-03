@@ -21,6 +21,8 @@ class ViewController: UIViewController {
       let names = UIFont.fontNamesForFamilyName(familyName as String)
       println("Font Names = [\(names)")
     }
+    
+    topTextView.font = UIFont(name: "orangejuice", size: 20.0)
   }
 
   override func didReceiveMemoryWarning() {
